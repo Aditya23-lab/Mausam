@@ -1,6 +1,9 @@
+
+
+
+
 const getWeather = (q) => {
   cityname.innerHTML = q;
-
   const apiKey = window.API_KEY;
 
   fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${q}`)
@@ -33,10 +36,9 @@ submit.addEventListener("click", (e) => {
   getWeather(q.value);
 });
 
-// Other Cities Section
+// Other cities section
 const updateOtherCities = () => {
   const apiKey = window.API_KEY;
-
   const cities = [
     { name: "Patna", id: "patna" },
     { name: "Goa", id: "goa" },
@@ -59,4 +61,4 @@ const updateOtherCities = () => {
 
 getWeather("New York");
 updateOtherCities();
-setInterval(updateOtherCities, 30000); // Update every 30 seconds instead of 3s
+setInterval(updateOtherCities, 30000); // Refresh every 30s
