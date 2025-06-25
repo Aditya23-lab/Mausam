@@ -1,0 +1,48 @@
+.container-fluid{
+    background-color: rgba(109, 209, 144, 0.7);
+}
+.col{
+    background-color:  rgb(131, 148, 204);
+}
+a.navbar-brand{
+    
+    border: 5px solid rgb(160, 138, 138);
+    background-color: rgb(129, 104, 112);
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: rgb(210, 188, 154);
+}
+.container{
+    background-color: rgb(131, 148, 204);
+    border: 9px solid bkack;
+    border-radius: 9px;
+}
+a.dropdown-item{
+    background-color: rgb(160, 141, 115);
+    border-radius: 10px;
+}
+ul.dropdown-menu{
+    background-color: rgb(145, 122, 122);
+}
+
+h4.my-0 {
+    background-color: rgba(82, 241, 106, 0.795);
+    border-radius: 10px;
+}
+h4.my-0:hover{
+    background-color: rgb(216, 104, 78);
+    color: white;
+}
+.card .card-header{
+    background-color: rgba(27, 229, 95, 0.962);
+}
+.card-body{
+    background-color: rgb(145, 216, 185);
+    
+}
+body {
+    background-color: #5b7da17d !important; /* Light green background */
+    border-radius: 13px !important;
+  }
